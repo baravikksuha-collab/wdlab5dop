@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOREALIS - Агентство цифровых продуктов</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Unbounded:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ПЛАВАЮЩИЕ КНОПКИ -->
+    <div class="floating-actions">
+        <a href="#top" class="scroll-top" title="Наверх">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        </a>
+        <a href="#contact-modal" class="floating-contact">
+            <span class="fc-dot"></span> Принимаю заказы
+        </a>
+    </div>
+
+    <!-- МОДАЛЬНОЕ ОКНО -->
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <h3 class="modal-title">Обсудить проект</h3>
+            <p class="modal-subtitle">Оставьте свои контакты, и я свяжусь с вами в ближайшее время.</p>
+
+            <form action="#" class="contact-form">
+                <div class="input-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Иван Иванов" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Телефон или Telegram</label>
+                    <input type="text" id="phone" placeholder="+375 (29) 123-45-67" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Пожелания к проекту</label>
+                    <textarea id="message" rows="3" placeholder="Хочу крутой сайт для..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Отправить заявку</button>
+            </form>
+
+            <div class="modal-footer">
+                <span>Или напишите мне напрямую:</span>
+                <a href="https://t.me/kseeny" target="_blank">Ксения тг: @kseeny</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- СЕКЦИЯ 1 -->
+    <main class="agency-split" id="top">
+        
+        <section class="left-panel">
+            
+            <div class="bg-pattern">
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+                <div class="bg-row">BOREALIS BOREALIS BOREALIS BOREALIS</div>
+            </div>
+
+            <header class="top-bar">
+                <div class="logo">BOREALIS<span>®</span></div>
+            </header>
+
+            <div class="hero-content">
+                <h1 class="title">
+                    Мы создаем<br>
+                    <span class="accent-text">цифровые</span><br>
+                    продукты
+                </h1>
+                
+              <div class="description-wrapper">
+                    <p class="description">
+                        <span class="text-accent">BOREALIS</span> — студия цифрового дизайна. Мы относимся к работе с трепетом и создаем интерфейсы, которые продают.<br>
+                        Основатель — <span class="text-light">Ксения Боровик</span>
+                    </p>
+                </div>
+                
+                <div class="action-group mt-large">
+                    <a href="#contact-modal" class="btn btn-primary">
+                        Обсудить проект
+                    </a>
+                    <a href="#cases" class="btn btn-secondary">
+                        Смотреть кейсы
+                    </a>
+                </div>
+            </div>
+
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>UX/UI ДИЗАЙН</span> <span class="star">✱</span>
+                    <span>РАЗРАБОТКА</span> <span class="star">✱</span>
+                    <span>БРЕНДИНГ</span> <span class="star">✱</span>
+                    <span>АРТ-ДИРЕКШН</span> <span class="star">✱</span>
+                    <span>UX/UI ДИЗАЙН</span> <span class="star">✱</span>
+                    <span>РАЗРАБОТКА</span> <span class="star">✱</span>
+                    <span>БРЕНДИНГ</span> <span class="star">✱</span>
+                    <span>АРТ-ДИРЕКШН</span> <span class="star">✱</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="right-panel">
+            <div class="image-wrapper">
+                <img src="me.jpg" alt="Ксения Боровик" class="img-main">
+                <img src="me2.jpg" alt="Ксения Боровик" class="img-hover">
+                
+                <div class="image-tag">
+                    <span>СДЕЛАНО С ЛЮБОВЬЮ</span>
+                    <span>МИНСК / ОНЛАЙН</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- СЕКЦИЯ 2 -->
+    <section class="achievements-slider reveal">
+        
+        <div class="slider-container">
+            
+            <!-- КОЛОНКА 1: АРХИТЕКТУРА -->
+            <div class="slide">
+                <div class="slide-dark-bg"></div>
+                <div class="slide-word">АРХИТЕКТУРА</div>
+                
+                <div class="slide-content">
+                    <div class="s-num">100%</div>
+                    <h3>Архитектура бренда</h3>
+                    <p>Выстраиваем прочный фундамент из стратегии и аналитики, на котором держится весь ваш бизнес.</p>
+                </div>
+
+                <div class="slide-scene scene-city">
+                    <div class="building b1">
+                        <div class="win"></div><div class="win"></div><div class="win"></div><div class="win"></div>
+                    </div>
+                    <div class="building b2">
+                        <div class="win"></div><div class="win"></div><div class="win"></div><div class="win"></div><div class="win"></div>
+                    </div>
+                    <div class="building b3">
+                        <div class="win"></div><div class="win"></div><div class="win"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- КОЛОНКА 2: СКОРОСТЬ -->
+            <div class="slide">
+                <div class="slide-dark-bg"></div>
+                <div class="slide-word">СКОРОСТЬ</div>
+                
+                <div class="slide-content">
+                    <div class="s-num">0.8s</div>
+                    <h3>Безупречный код</h3>
+                    <p>Чистая верстка и загрузка быстрее одной секунды без багов.</p>
+                </div>
+
+                <div class="slide-scene scene-track">
+                    <div class="track"></div>
+                    <div class="car">🏎️</div>
+                </div>
+            </div>
+
+            <!-- КОЛОНКА 3: ПРИЗНАНИЕ -->
+            <div class="slide">
+                <div class="slide-dark-bg"></div>
+                <div class="slide-word">ПРИЗНАНИЕ</div>
+                
+                <div class="slide-content">
+                    <div class="s-num">12</div>
+                    <h3>Мировые награды</h3>
+                    <p>Наши интерфейсы отмечают на Awwwards, Behance и CSS Awards.</p>
+                </div>
+
+                <div class="slide-scene scene-carpet">
+                    <div class="carpet"></div>
+                    <div class="flash f1">✦</div>
+                    <div class="flash f2">♥</div>
+                    <div class="flash f3">✦</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
